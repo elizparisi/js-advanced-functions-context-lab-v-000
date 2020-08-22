@@ -52,8 +52,10 @@ function wagesEarnedOnDate(date){
   
 }
 
-function findEmployeeByFirstName(arrayOfEmployees, firstName){
+function findEmployeeByFirstName(records, firstName){
   
 }
 
-function calculatePayroll()
+function calculatePayroll(arrayOfEmployees){
+  
+}

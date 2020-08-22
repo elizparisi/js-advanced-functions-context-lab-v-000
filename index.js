@@ -21,3 +21,10 @@ let allWagesFor = function () {
     return payable
 }
 
+function createEmployeeRecord(employee){
+  return {
+    firstName: ,
+    familyName: 
+    
+  };
+}

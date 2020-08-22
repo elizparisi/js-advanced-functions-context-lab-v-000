@@ -58,7 +58,7 @@ function createTimeOutEvent(dateStamp){
     return this;
 }
 
-function hoursWorkedOnDate(date){
+function hoursWorkedOnDate(dateWorked){
   let clockIn = this.timeInEvents.find(event => event.date === dateWorked);
   let clockOut = this.timeOutEvents.find(event => event.date === dateWorked);
   

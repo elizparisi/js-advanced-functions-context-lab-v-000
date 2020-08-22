@@ -21,7 +21,7 @@ let allWagesFor = function () {
     return payable
 }
 
-function createEmployeeRecord(employee){
+function createEmployeeRecord(employees){
   firstName: employees[0],
   familyName: employees[1],
   title: employees[2],

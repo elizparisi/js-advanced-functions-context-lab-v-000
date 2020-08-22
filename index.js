@@ -66,7 +66,7 @@ function hoursWorkedOnDate(dateWorked){
 }
 
 function wagesEarnedOnDate(date){
-  
+  return record.payPerHour * hoursWorkedOnDate(record, dateWorked);
 }
 
 function findEmployeeByFirstName(records, firstName){

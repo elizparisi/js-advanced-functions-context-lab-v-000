@@ -67,8 +67,8 @@ function wagesEarnedOnDate(date){
 }
 
 function findEmployeeByFirstName(records, firstName){
-  return this.find(this => {
-    return this.firstName === firstName;
+  return records.find(record => {
+    return record.firstName === firstName;
   });
 }
 

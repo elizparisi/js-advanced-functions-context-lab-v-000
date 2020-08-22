@@ -65,8 +65,8 @@ function hoursWorkedOnDate(dateWorked){
   return (clockOut.hour - clockIn.hour) / 100;
 }
 
-function wagesEarnedOnDate(date){
-  return record.payPerHour * hoursWorkedOnDate(record, dateWorked);
+function wagesEarnedOnDate(dateWorked){
+  return this.payPerHour * hoursWorkedOnDate(dateWorked);
 }
 
 function findEmployeeByFirstName(records, firstName){

@@ -37,7 +37,7 @@ function createEmployeeRecords(arrayOfEmployees){
 }
 
 function createTimeInEvent(dateStamp){
-  let [date, hour] = timeIn.split(' ');
+  let [date, hour] = dateStamp.split(' ');
   
   this.timeInEvents.push({
     type: "TimeIn", 

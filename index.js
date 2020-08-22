@@ -57,7 +57,6 @@ function createTimeOutEvent(dateStamp){
   });
     return this;
 }
-}
 
 function hoursWorkedOnDate(date){
   

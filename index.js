@@ -76,5 +76,5 @@ function findEmployeeByFirstName(records, firstName){
 }
 
 function calculatePayroll(arrayOfEmployees){
-  return arrayOfEmployees.reduce((total, hours) => total + allWagesFor.call(hours));
+  return arrayOfEmployees.reduce((total, hours) => total + allWagesFor.call(hours), 0);
 }

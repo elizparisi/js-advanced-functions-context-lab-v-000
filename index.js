@@ -39,12 +39,12 @@ function createEmployeeRecords(arrayOfEmployees){
 function createTimeInEvent(dateStamp){
   let [date, hour] = timeIn.split(' ');
   
-  record.timeInEvents.push({
+  this.timeInEvents.push({
     type: "TimeIn", 
     hour: parseInt(hour, 10),
     date: date, 
   });
-    return record;
+    return this;
 }
 
 function createTimeOutEvent(date){

@@ -22,7 +22,7 @@ let allWagesFor = function () {
 }
 
 function createEmployeeRecord(employees){
-  firstName: this[0],
+  firstName: employees[0],
   familyName: employees[1],
   title: employees[2],
   payPerHour: employees[3],

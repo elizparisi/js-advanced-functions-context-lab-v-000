@@ -33,5 +33,5 @@ function createEmployeeRecord(employees){
 }
 
 function createEmployeeRecords(arrayOfEmployees){
-  return arrayOfEmployees.map()
+  return arrayOfEmployees.map(createEmployeeRecord);
 }

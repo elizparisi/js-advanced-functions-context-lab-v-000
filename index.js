@@ -35,3 +35,25 @@ function createEmployeeRecord(employees){
 function createEmployeeRecords(arrayOfEmployees){
   return arrayOfEmployees.map(createEmployeeRecord);
 }
+
+function createTimeInEvent(date){
+  
+}
+
+function createTimeOutEvent(date){
+  
+}
+
+function hoursWorkedOnDate(date){
+  
+}
+
+function wagesEarnedOnDate(date){
+  
+}
+
+function findEmployeeByFirstName(arrayOfEmployees, firstName){
+  
+}
+
+function calculatePayroll()

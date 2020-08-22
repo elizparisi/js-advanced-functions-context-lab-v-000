@@ -42,7 +42,7 @@ function createTimeInEvent(dateStamp){
   this.timeInEvents.push({
     type: "TimeIn", 
     hour: parseInt(hour, 10),
-    date: date, 
+    date: date
   });
     return this;
 }
@@ -51,9 +51,9 @@ function createTimeOutEvent(dateStamp){
   let [date, hour] = dateStamp.split(' ');
   
   this.timeOutEvents.push({
-    type: "TimeIn", 
+    type: "TimeOut", 
     hour: parseInt(hour, 10),
-    date: date, 
+    date: date 
   });
     return this;
 }

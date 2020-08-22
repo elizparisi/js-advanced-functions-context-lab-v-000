@@ -59,8 +59,8 @@ function createTimeOutEvent(dateStamp){
 }
 
 function hoursWorkedOnDate(date){
-  let clockIn = record.timeInEvents.find(event => event.date === dateWorked);
-  let clockOut = record.timeOutEvents.find(event => event.date === dateWorked);
+  let clockIn = this.timeInEvents.find(event => event.date === dateWorked);
+  let clockOut = this.timeOutEvents.find(event => event.date === dateWorked);
   
   return (clockOut.hour - clockIn.hour) / 100;
 }
